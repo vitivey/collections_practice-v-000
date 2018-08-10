@@ -94,5 +94,4 @@ def add_s(array)
         array[index]= word+"s"
       end
     end
-  end
 end
