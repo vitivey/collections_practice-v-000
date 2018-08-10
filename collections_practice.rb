@@ -55,8 +55,7 @@ end
 def kesha_maker(array)
   kesha=[]
   array.each do |string|
-    
-    kesha << string[2]="$"
+    kesha.push(string[2]="$")
   end
   kesha
 end
