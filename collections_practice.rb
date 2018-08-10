@@ -43,7 +43,7 @@ def swap_elements_from_to(array,from_index, to_index)
 end
 
 def reverse_array(array)
-    i=1
+    i=0
     new_array=[]
    until i = array.length
      new_array << array.pop
