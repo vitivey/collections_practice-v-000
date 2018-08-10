@@ -89,9 +89,9 @@ end
 # end
 
 def add_s(array)
-  array.each_with_index do |word, index|
-    array.collect do |word|
-      if index != 1
+  array.collect do |word|
+    array.each_with_index do |word, index|
+          if index != 1
         array[index]= word+"s"
       end
     end
