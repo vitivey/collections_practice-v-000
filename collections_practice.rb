@@ -41,3 +41,14 @@ def swap_elements_from_to(array,from_index, to_index)
   array[to_index] = element_1
   array
 end
+
+def reverse_array(array)
+  array.sort do |x,y|
+    if x == y
+      0
+    elsif x> y
+      -1
+    else
+      1      
+    end  
+end
