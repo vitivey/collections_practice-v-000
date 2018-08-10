@@ -60,3 +60,10 @@ def kesha_maker(array)
   end
   kesha
 end
+
+def find_a(array)
+  a = []
+  array.each do |word|
+    a << word if word[0]=="a"
+  end
+end
