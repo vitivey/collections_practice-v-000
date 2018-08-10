@@ -45,7 +45,7 @@ end
 def reverse_array(array)
     i=0
     new_array=[]
-   until i = array.length
+   until i = array.length do
      new_array << array.pop
      i+=1
    end
