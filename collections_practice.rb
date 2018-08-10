@@ -51,4 +51,5 @@ def reverse_array(array)
     else
       1
     end
+  end
 end
