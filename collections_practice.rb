@@ -49,6 +49,6 @@ def reverse_array(array)
     elsif x> y
       -1
     else
-      1      
-    end  
+      1
+    end
 end
