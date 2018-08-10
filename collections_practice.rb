@@ -77,13 +77,15 @@ def sum_array(array)
   sum
 end
 
+# def add_s(array)
+#   new_array=[]
+#   array.each do |word|
+#     if array.index(word) !=1
+#       new_array << word+"s"
+#     end
+#   end
+#   new_array.insert(1, array[1])
+#   new_array
+# end
+
 def add_s(array)
-  new_array=[]
-  array.each do |word|
-    if array.index(word) !=1
-      new_array << word+"s"
-    end
-  end
-  new_array.insert(1, array[1])
-  new_array
-end
