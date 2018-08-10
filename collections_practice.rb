@@ -33,3 +33,11 @@ def swap_elements(array)
   array[2] = element_1
   array
 end
+
+def swap_elements_from_to(array,from_index, to_index)
+  element_1= array[from_index]
+  element_2=array[to_index]
+  array[from_index] = element_2
+  array[to_index] = element_1
+  array
+end
